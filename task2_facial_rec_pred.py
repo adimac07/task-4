@@ -18,6 +18,8 @@ test_image = image.load_img('/content/drive/My Drive/data/test_set/women/0000000
 
 type (test_image)
 
+import keras from tensorflow 
+
 import numpy as np
 
 test_image = np.expand_dims(test_image, axis=0)
